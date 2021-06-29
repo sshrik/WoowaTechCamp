@@ -168,7 +168,10 @@ header > div {
     font-size: 16px;
     color: var(--gmarket-white);
 }
-
+#top-text-nav-container {
+    display: flex;
+    align-items: center;
+}
 #top-text-nav-container > a {
     font-size: 15px;
     margin-left: 22px;
@@ -226,4 +229,37 @@ a:visited.top-gray {
 #top-text-menu-container > img {
     width: 8px;
     height: 8px;
+}
+
+#banner-ad-container {
+    margin-top: -16px;
+}
+
+#banner-menu-container {
+    width: 182.5px;
+    background-color: var(--gmarket-green);
+}
+
+li {
+    font-family: -apple-system, "NotoSansRegular";
+}
+
+ul {
+    list-style: none;
+}
+
+#banner-menu-container > li {
+    color: var(--gmarket-white);
+    margin-top: 14px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    margin-left: -20px;
+}
+
+.banner-bottom-line {
+    width: 222.5px;
+    margin-left: -40px;
+    height: 0px;
+    margin-top: -1.5px;
+    border-bottom: 0.1px solid var(--gmarket-white);
 }
