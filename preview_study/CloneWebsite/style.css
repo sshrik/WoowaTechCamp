@@ -1,9 +1,28 @@
 body {
     margin: 0px;
     padding: 0px;
-    
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@font-face { 
+    font-family: "GmarketSansBold";
+    src: url("font/GmarketSansBold.otf");
+}
+
+@font-face { 
+    font-family: "GmarketSansLight";
+    src: url("font/GmarketSansLight.otf");
+}
+
+@font-face { 
+    font-family: "GmarketSansMedium";
+    src: url("font/GmarketSansMedium.otf");
+}
+
+h1 {
+    font-family: "GmarketSansMedium";
 }
 
 header {
@@ -13,6 +32,7 @@ header {
     display: flex;
     align-items: center;
 }
+
 
 #logo-image {
     margin-left: -47px;
