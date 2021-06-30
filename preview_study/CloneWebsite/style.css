@@ -424,7 +424,7 @@ ul {
 
 
 #notice-container {
-    margin-top: 60px;
+    margin-top: 40px;
     height: 40px;
 }
 
@@ -442,6 +442,7 @@ ul {
 }
 
 #notice-header {
+    color: #777;
     font-family: "NotoSansBold";
 }
 #notice-slash, #notice-contents, #notice-date {
@@ -454,4 +455,22 @@ ul {
     height: 16px;
     border: 0.1px solid var(--gmarket-white-gray);
     margin-right: 16px;
+}
+
+#font-download-container {
+    margin-top: 40px;
+}
+
+#font-download-container > img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#font-download-container > div {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 62px;
+    z-index: -1;
+    background-color: var(--gmarket-green);
 }
