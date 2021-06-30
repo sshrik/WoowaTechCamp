@@ -423,6 +423,10 @@ ul {
 
 
 
+
+
+
+
 #notice-container {
     margin-top: 40px;
     height: 40px;
@@ -469,8 +473,182 @@ ul {
 #font-download-container > div {
     position: absolute;
     left: 0;
-    width: 100vw;
+    width: calc(100vw - 15px);
     height: 62px;
     z-index: -1;
     background-color: var(--gmarket-green);
+}
+
+#footer-back {
+    position: absolute;
+    width: 100vw;
+    height: 800px;
+    background-color: #eee;
+    z-index: -1;
+    left: 0;
+    margin-top: -3px;
+}
+
+#footer-nav {
+    display: flex;
+    width: 1160px;
+    margin-top: 4px;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    border-bottom: 0.5px solid var(--gmarket-white-gray);
+}
+
+#footer-nav-list {
+    display: flex;
+    flex-direction: row;
+    margin-left: -40px;
+}
+
+#footer-nav-list > li {
+    font-size: 14px;
+    margin-right: 16px;
+    color: var(--gmarket-dark-gray);
+}
+
+.bold-li {
+    font-family: "NotoSansBold";
+    font-size: 14px;
+    line-height: 14px;
+}
+
+#footer-nav-list > li > a {
+    color: var(--gmarket-dark-gray);
+    text-decoration:  none;
+}
+#footer-nav-list > li > a:visited{
+    color: var(--gmarket-dark-gray);
+    text-decoration:  none;
+}
+
+.footer-line-br {
+    width: 0;
+    height: 16px;
+    margin-right: 16px;
+    border: 0.1px solid var(--gmarket-white-gray)
+}
+
+.seller-service-btn {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--gmarket-white);
+    border-style: none;
+    border: 0.5px solid var(--gmarket-white-gray);
+    width: 130px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.seller-service-btn > p {
+    font-size: 14px;
+    color: var(--gmarket-dark-gray);
+    font-family: -apple-system, "NotoSansRegular";
+}
+
+.seller-service-btn > img {
+    width: 10px;
+    margin-left: 10px;
+    object-fit: cover;
+}
+
+#ebay-info { 
+    flex: 1;
+}
+
+#info-container {
+    display: flex;
+    flex-direction: row;
+    width: 1160px;
+    border-bottom: 0.5px solid var(--gmarket-white-gray);
+}
+
+.footer-plain-p{
+    font-size: 12px;
+    color: var(--gmarket-dark-gray);
+    font-family: -apple-system, "NotoSansRegular";
+}
+
+.footer-bold {
+    font-size: 12px;
+    color: #777;
+    font-family: "NotoSansBold";
+}
+
+#footer-com-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 12px;
+}
+
+#footer-com-btn > button {
+    border-style: none;
+    border: 0.5px solid var(--gmarket-white-gray);
+    background-color: var(--gmarket-white);
+
+    width: 86px;
+    height: 18px;
+    border-radius: 1.8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
+
+#footer-com-btn > button > p {
+    font-size: 10px;
+}
+
+#footer-com-btn > button > img {
+    margin-left: 6px;
+    width: 5px;
+    object-fit: cover;
+}
+
+#customer-center { 
+    flex: 1;
+}
+
+#customer-center-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 12px;
+    margin-top: 16px;
+}
+
+#customer-center-header > img {
+    margin-left: 10px;
+    width: 6px;
+    object-fit: cover;
+}
+
+#tel-info{ 
+    display: flex;
+    flex-direction: row;
+    margin-top: -14px;
+    margin-bottom: 26px;
+    height: 12px;
+}
+#tel-left, #tel-right {
+    display: flex;
+    flex-direction: row;
+    height: 12px;
+}
+
+.phone-p {
+    font-size: 12px;
+    color: var(--gmarket-blue);
+    font-family: -apple-system, "NotoSansRegular";
 }
