@@ -410,3 +410,48 @@ ul {
     font-family: "GmarketSansBold";
     font-size: 16px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+#notice-container {
+    margin-top: 60px;
+    height: 40px;
+}
+
+#notice-p-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#notice-p-container > p {
+    margin-right: 8px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#notice-header {
+    font-family: "NotoSansBold";
+}
+#notice-slash, #notice-contents, #notice-date {
+    font-family: -apple-system, "NotoSansRegular";
+    color: #777;
+}
+
+#notice-br {
+    width: 0px;
+    height: 16px;
+    border: 0.1px solid var(--gmarket-white-gray);
+    margin-right: 16px;
+}
