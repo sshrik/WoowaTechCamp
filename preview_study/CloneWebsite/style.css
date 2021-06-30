@@ -482,7 +482,7 @@ ul {
 #footer-back {
     position: absolute;
     width: 100vw;
-    height: 800px;
+    height: 450px;
     background-color: #eee;
     z-index: -1;
     left: 0;
@@ -569,6 +569,7 @@ ul {
     display: flex;
     flex-direction: row;
     width: 1160px;
+    margin-bottom: 30px;
     border-bottom: 0.5px solid var(--gmarket-white-gray);
 }
 
@@ -579,7 +580,7 @@ ul {
 }
 
 .footer-bold {
-    font-size: 12px;
+    font-size: 14px;
     color: #777;
     font-family: "NotoSansBold";
 }
@@ -651,4 +652,96 @@ ul {
     font-size: 12px;
     color: var(--gmarket-blue);
     font-family: -apple-system, "NotoSansRegular";
+}
+#report-system-container {
+    width: 1160px;
+    border-bottom: 0.5px solid var(--gmarket-white-gray);
+}
+
+#report-system-container > ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: -40px;
+}
+
+#report-system-container > ul > li{
+    display: flex;
+    flex-direction: row;
+    height: 12px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#report-system-container > ul > li > p{
+    font-size: 12px;
+    color: var(--gmarket-dark-gray);
+    font-family: -apple-system, "NotoSansRegular";
+}
+
+.elec-info {
+    margin-right: 8px;
+}
+
+#report-system-container > ul > li > img{
+    margin-left: 4px;
+    margin-right: 8px;
+    width: 6px;
+    object-fit: cover;
+}
+
+#warning-msg { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#warning-msg > p, #warning-msg > a {
+    font-size: 12px;
+    color: var(--gmarket-dark-gray);
+    font-family: -apple-system, "NotoSansRegular";
+    margin-right: 12px;
+}
+
+#warning-msg > a:visited {
+    font-size: 14px;
+    color: var(--gmarket-dark-gray);
+}
+
+.footer-black-p {
+    color: var(--gmarket-dark-black);
+    line-height: 12px;
+    margin-top: -2px;
+    font-size: 12px;
+    font-family: -apple-system, "NotoSansRegular";
+}
+
+#footer-from-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 12px;
+}
+
+#footer-from-container > img {
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+#KOLSA-logo {
+    height: 12px;
+}
+#prize-show-btn {
+    height: 8px;
+}
+
+#footer-from-container > a {
+    color: var(--gmarket-dark-gray);
+    font-size: 12px;
+    font-family: -apple-system, "NotoSansRegular";
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#footer-from-container > a:visited {
+    color: var(--gmarket-dark-gray);
 }
