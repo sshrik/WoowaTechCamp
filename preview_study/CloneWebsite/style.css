@@ -896,12 +896,107 @@ ul {
 
 
 
+#mini-chance-container { 
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
+#power-mini-container {
+    flex: 2;
+    margin-right: 20px;
+}
 
+#power-mini-header, #chance-header {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 
+    margin-bottom: 15px;
+}
 
+.ad-btn {
+    width: 20px;
+    height: 14px;
+    background-color: #eee;
+    border: 0.1px solid var(--gmarket-white-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.ad-btn > p {
+    line-height: 4px;
+    font-size: 4px;
+    text-align: center;
+    font-family: "NotoSansRegualr";
+    color: #ccc
+}
 
+#power-mini-container > img {
+    width: 100%;
+    height: 360px;
+    border-radius: 5px;
+}
+
+#chance-container {
+    flex: 3;
+    margin-left: 30px;
+}
+
+.chance-lr {
+    top: 50%;
+}
+
+#chance-contents { 
+    position: relative;
+    width: 100%;
+    height: 360px;
+    border-radius: 5px;
+    border: 1px solid var(--gmarket-white-gray);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chance-content {
+    width: 165px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chance-content > img {
+    width: 165px;
+    height: 165px;
+    border-radius: 5px;
+    border: 1px solid var(--gmarket-white-gray);
+}
+
+.chance-title {
+    font-family: "GmarketSansMedium";
+    text-align: center;
+    line-height: 14px;
+    font-size: 14px;
+    margin: 0px;
+    margin-top: 20px;
+}
+.chance-price {
+    font-family: "GmarketSansBold";
+    text-align: center;
+    line-height: 18px;
+    font-size: 18px;
+    margin: 0px;
+    margin-top: 20px;
+}
 
 
 #notice-container {
