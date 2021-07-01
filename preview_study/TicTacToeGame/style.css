@@ -159,6 +159,57 @@ button > p {
 
 .pressable-board {
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: calc(500px / 3);
     height: calc(500px / 3);
+}
+
+.inner-circle {
+    width: 80px;
+    height: 80px;
+    background-color: var(--tt-basi);
+    border-radius: 80px;
+}
+
+.outer-circle {
+    width: 100px;
+    height: 100px;
+    background-color: var(--tt-brown);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100px;
+}
+
+.x-container {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.x-left {
+    position: absolute;
+    top: 50px;
+    left: -17.5px;
+    width: 125px;
+    height: 0px;
+    transform: rotate(-45deg);
+    border: 5px solid var(--tt-green);
+    border-radius: 5px;
+    background-color: var(--tt-green);
+}
+
+.x-right {
+    position: absolute;
+    top: 50px;
+    left: -17.5px;
+    width: 125px;
+    height: 0px;
+    transform: rotate(45deg);
+    border: 5px solid var(--tt-green);
+    border-radius: 5px;
+    background-color: var(--tt-green);
 }
