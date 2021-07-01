@@ -184,6 +184,13 @@ function clearBoard() {
         }
     });
 }
+
+function newGame() {
+    brownScore = 0;
+    greenScroe = 0;
+    init();
+}
+
 class BrownCircle {
     constructor() {
         let divEl = document.createElement('div');
