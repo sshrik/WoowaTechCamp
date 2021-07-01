@@ -38,8 +38,6 @@ window.addEventListener('load', function () {
 
     // toggle turn.
     setTurnPoint();
-    // make score
-    setScore();
 });
 
 function setScore() {
@@ -186,7 +184,6 @@ function clearBoard() {
         }
     });
 }
-
 class BrownCircle {
     constructor() {
         let divEl = document.createElement('div');
