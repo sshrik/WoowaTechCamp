@@ -101,6 +101,7 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 24px;
     border-style: none;
     background-color: var(--tt-basi);
     cursor: pointer;
@@ -109,6 +110,8 @@ button {
 
 button > p {
     font-size: 24px;
+    line-height: 24px;
+    text-align: center;
 }
 
 #copyright-text {
