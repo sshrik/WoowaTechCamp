@@ -16,6 +16,10 @@ body {
     --gmarket-gold: #A68354;
     --gmarket-dark-red: #c73634;
     --gmarket-red: #e04848;
+    --gmarket-mint: #52b5a4;
+    --gmarket-orange: #f09236;
+    --gmarket-yellow: #f6cc46;
+    --gmarket-navy: #3d3d6f;
 
     /* #81c348 #e14a4f #2d8ce6 #81c348 #e0454a #3d3d73*/
 }
@@ -548,20 +552,159 @@ ul {
     color: var(--gmarket-white-gray);
 }
 
+#shopping-detail-header, #smile-detail-header {
+    margin-top: 20px;
+    border-bottom : 0.1px solid var(--gmarket-white-gray);
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
 
+#shopping-detail-header > img {
+    width: 130px;
+    object-fit: cover;
+}
 
+.shopping-detail-parser {
+    width: 0px;
+    height: 15px;
+    border: 0.1px solid var(--gmarket-white-gray);
+}
 
+#shopping-detail-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+.shopping-detail {
+    width: calc(50% - 20px);
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
 
+.shopping-detail > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid var(--gmarket-white-gray);
+}
 
+.shopping-detail-info {
+    margin-left: 20px;
+    width: calc(100% - 120px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.mint-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    background-color: var(--gmarket-mint);
+}
 
+.mint-box > p, .orange-box > p, .yellow-box > p, .blue-box > p{ 
+    font-family: "NotoSansRegular";
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: var(--gmarket-white);
+    margin: 2px;
+    
+}
 
+.orange-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    background-color: var(--gmarket-orange);
+}
 
+.yellow-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    background-color: var(--gmarket-yellow);
+}
 
+.blue-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    background-color: var(--gmarket-blue);
+}
 
+.shopping-detail-info > p {
+    margin: 0px;
+    margin-top: 5px;
+}
 
+.shopping-detail-title {
+    font-size: 14px;    
+    font-family: "NotoSansRegular";
+}
 
+.shppoing-detail-price {
+    font-size: 18px;
+    font-family: "GmarketSansBold";
+}
+
+#goto-homeplus, #goto-show-more {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border: 0.5px solid var(--gmarket-white-gray);
+    width: calc(100%);
+    height: 55px;
+    border-radius: 30px;
+    background-color: rgb(250, 250, 250);
+}
+
+.smile-header-p { 
+    font-family: "NotoSansRegular";
+    font-size: 16px;
+    margin: 9px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.smile-header-el {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#smile-header-title1 { 
+    color: var(--gmarket-dark-gray);
+}
+
+#smile-header-title2 {
+    font-family: "GmarketSansBold";
+    color: var(--gmarket-white);
+}
+
+.smile-header-el-background {
+    background-color: var(--gmarket-navy);
+    width: 140px;
+    height: 40px;
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
