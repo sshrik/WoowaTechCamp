@@ -37,6 +37,10 @@ p, h1 {
     border-radius: 20px;
 }
 
+.non-visible {
+    visibility: hidden;
+}
+
 .orange-ball {
     background-color: var(--tt-orange);
     margin-right: 11px;
